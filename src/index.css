@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* App-specific tweaks */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
